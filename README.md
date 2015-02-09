@@ -66,7 +66,7 @@ Note that parsers do need to accomodate the other possible parsers to prevent po
 
 Base ([test/fixtures/base.json](test/fixtures/base.json)):
 
-```
+```json
 {
   "SINGLE_KEY": "Test Key",
   "ANGULAR_VARIABLE": "This has an {{ angularVar }}-style variable in it",
@@ -86,7 +86,7 @@ Base ([test/fixtures/base.json](test/fixtures/base.json)):
 
 Comparison ([test/fixtures/compare.json](test/fixtures/compare.json)):
 
-```
+```json
 {
   "SINGLE_KEY": "Test Key",
   "ANGULAR_VARIABLE": "This has an {{ angularVar }}-style variable in it",
