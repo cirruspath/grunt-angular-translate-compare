@@ -1,7 +1,7 @@
 {
   "name": "grunt-angular-translate-compare",
   "description": "Compares angular-translate translation files for missing keys and variables within those keys",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://www.cirrusinsight.com",
   "author": {
     "name": "Nick Dresselhaus",
