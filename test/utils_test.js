@@ -124,4 +124,4 @@ exports.compare_vars = {
     test.deepEqual(actual, expected, 'unexpected error object returned');
     test.done();
   }
-}
+};
