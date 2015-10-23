@@ -67,7 +67,7 @@ exports.key_diff = {
 
   key_diff_missing_keys: function(test) {
     var actual = utils.keyDiff(this.flatBase, this.flatCompare);
-    test.deepEqual(actual, ['EXTRA_KEY', 'EMPTY_KEY'], 'unexpected mismatched keys returned');
+    test.deepEqual(actual, ['EXTRA_KEY'], 'unexpected mismatched keys returned');
     test.done();
   }
 };
